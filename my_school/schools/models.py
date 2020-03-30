@@ -6,6 +6,10 @@ class School(models.Model):
     code = models.CharField(max_length=100)
     address = models.CharField(max_length=100)
     no_of_students = models.IntegerField()
+
+
+    def __str__(self):
+        return self.name
     
     class Meta:
         db_table = 'tbl_schools'

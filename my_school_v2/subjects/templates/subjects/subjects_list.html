@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Subjects List</title>
+</head>
+<body>
+    <h2>Subjects List</h2>
+    <!-- <p style="color: #3875d7">Student Name: {{student_detail.name}}</p>
+    <p>Reg No: {{student_detail.regNo}}</p> -->
+    {% for subject in subject_data %}
+        <p>{{subject.name}}</p>
+    {% endfor %}
+
+</body>
+</html>

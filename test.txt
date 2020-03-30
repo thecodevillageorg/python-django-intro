@@ -1,0 +1,46 @@
+https://hello.freeconference.com/conf/call/6496805
+
+Customer
+
+id  1
+name Peter
+
+id 2
+name John
+
+
+Account
+
+id 1
+accountN 334443
+customer_id 1
+currency_id 1
+
+
+
+Currency
+
+id   1
+name KES
+customer_id 1
+
+
+id 2
+name KES
+customer_id 2
+
+
+
+Currency
+id 1
+name KES
+
+
+id 2
+name USD
+
+
+id 3
+name YEN
+
+
