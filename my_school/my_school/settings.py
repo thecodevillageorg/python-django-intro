@@ -87,7 +87,7 @@ DATABASES = {
         'PORT':3306,
         'NAME':'codev_dja_school',
         'USER':'root',
-        'PASSWORD':'smartcode'
+        'PASSWORD':'password'
     }
 }
 
